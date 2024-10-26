@@ -1,5 +1,5 @@
 {
-    "name": "SliTwisaac/Isaac",
+    "name": "sli-twisaac/isaac",
     "autoload": {
         "psr-4": {
             "app\\" : "app/"
