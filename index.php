@@ -14,7 +14,7 @@ $twig = $appData['twig'];
 $app->get("/", function (Request $request, Response $response) use ($twig) {
     return $twig->render($response, "index.html", [
         'title' => 'Bem vindo ao SliTwisaac',
-        'content' => 'Desenvolvedor Isaac'
+        'content' => 'Desenvolvido por Isaac'
     ]);
 });
 
